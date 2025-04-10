@@ -3,11 +3,9 @@ import axios from 'axios'
 import {toast} from 'react-toastify'
 import parcel from '../assets/parcel_icon.png'
 
-function Orders() {
+function Orders({url}) {
 
   const [orders,setOrders] = useState([]);
-
-  const url = "http://localhost:3000"
 
   const fetchAllOrders = async () => {
 

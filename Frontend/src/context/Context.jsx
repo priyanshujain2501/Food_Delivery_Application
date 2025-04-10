@@ -14,7 +14,7 @@ function ContextProvider({children}){
     const [discountedAmt, setDiscountedAmt] = useState(0);
     const [members,setMembers] = useState([]);
     const [isPromoApplied, setIsPromoApplied] = useState(false);
-    const url = "http://localhost:3000"
+    const url = "https://food-delivery-application-cqb4.onrender.com"
     const [token,setToken] = useState("")
     const [food_list,setFoodList] = useState([])
 

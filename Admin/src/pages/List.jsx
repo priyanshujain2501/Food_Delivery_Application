@@ -3,13 +3,10 @@ import axios from 'axios'
 import { toast } from 'react-toastify';
 import { GiCancel } from "react-icons/gi";
 
-function List() {
-
-  const url = "http://localhost:3000";
+function List({url}) {
 
   const [list,setList] = useState([]);
 
-  
 
   const fetchList = async () => {
 
